@@ -1,1 +1,2 @@
-# final_project_EDA
+# Hello World
+# We are BlueCode 
