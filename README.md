@@ -1,7 +1,7 @@
 # Hello World
 # We are BlueCode 
 
-**Wanna know our dataset? visit out ipynb:)
+Wanna know our dataset? visit out ipynb:)
 
 # Summary EDA
 - Terdapat kolom yang masih dengan tipe data yang kurang sesuai. *Meski bukan masalah besar karena perbedaannya adalah yang semula float64 akan kami ubah menjadi int64 namun tetap akan kami ubah di tahap selanjutnya karena kami anak yang rajin dan suka menabung demi masa depan yang lebih cerah:)*
