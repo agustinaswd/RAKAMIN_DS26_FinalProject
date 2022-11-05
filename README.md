@@ -57,8 +57,33 @@ Hotel booking cancellation is the lucky dataset that caught our attention. You c
 - credit_card : Credit Card Number (not Real)
 
 # Summary EDA
-- Terdapat kolom yang masih dengan tipe data yang kurang sesuai. *Meski bukan masalah besar karena perbedaannya adalah yang semula float64 akan kami ubah menjadi int64 namun tetap akan kami ubah di tahap selanjutnya karena kami anak yang rajin dan suka menabung demi masa depan yang lebih cerah:)*
-- Tidak terdapat duplikat di dataset kami namun masih ada kolom yang kosong. Handling null value atau kolom kosong akan dilakukan di tahap selanjutnya, *so stay tune:)
+- Terdapat kolom yang masih dengan tipe data yang kurang sesuai.
+*Meski bukan masalah besar karena perbedaannya adalah yang semula float64 akan kami ubah menjadi int64*
+- Tidak terdapat duplikat di dataset kami namun masih ada kolom yang kosong. Handling null value atau kolom kosong akan dilakukan di tahap selanjutnya 
+*so stay tune:)
 - Kami menemukan beberapa keanehan pada summary dataset kami. Handling keanehan-keanehan tersebut akan di lakukan di tahap selanjutnya. 
 
-# This is our first README and very first using git so please bear with us our imperfect README, big thanks!
+# Summary Data Preprocessing
+- Drop null value di kolom ‘children’ : ada 4 baris yang di drop. Sehingga dataset memiliki 119386 entries
+- Drop kolom ‘company’ & ‘agent‘
+- Mengisi missing values di kolom ‘country’ dengan mode 
+- Mengubah minus value di kolom 'adr' menjadi nol (0)
+- Handle Outlier pada fitur 'adr' menggunakan ZScore
+- Strategi encoding
+    - Hotel, origin_type : label encoding
+    - meal, market_segment, distribution_channel, deposit_type, customer_type, season : One Hot Encoding
+Kolom 'meal', 'market_segment', 'distribution_channel', 'deposit_type', 'customer_type', 'season' akan di drop karena di-encoding dengan One Hot Encoding.
+Kolom ‘season’ dan ‘origin_type’ adalah kolom baru yang dibuat di tahap Feature Engineering
+- Perbandingan antar kelas fitur target (is_canceled) masih dalam proporsi yang seimbang dan belum masuk kategori imbalance. Jadi tidak perlu melakukan undersampling atau oversampling
+- Beberapa kolom yang memiliki redundan (korelasi antar fitur > 0.70) akan didrop, yaitu :
+    - arrival_date_year dengan reservation status_date (kedua nya akan didrop)
+    - arrival date week juga akan di drop
+    - reservation_status akan didrop
+    - market_segment_direct dengan distribution_channel_direct (akan di drop salah satu, yaitu distribution_channel_direct)
+    - distribution_channelTA/TO dengan market_segment_direct (distribution_channelTA/TO akan di drop)
+    - customer_type_Transient dengan customer_type_Transient-Party (customer_type_Transient-Party akan didrop)
+    - deposit_type_No Deposit dengan deposit_type_Non Refund (deposit_type_Non Refund akan didrop)
+    - sisanya kolom - kolom yang outdated akan di drop (kolom yang sudah dilakukan transformasi)
+- Jadi kolom akhir yang akan digunakan adalah 
+'hotel', 'is_canceled', 'arrival_date_week_number', 'arrival_date_day_of_month', 'stays_in_weekend_nights', 'stays_in_week_nights', 'adults', 'children', 'babies', 'country', 'is_repeated_guest', 'previous_cancellations', 'previous_bookings_not_canceled', 'booking_changes', 'days_in_waiting_list', 'required_car_parking_spaces', 'lead_time_norm', 'adr_norm', 'total_of_special_requests_norm', 'meal_BB', 'meal_FB', 'meal_HB', 'meal_SC', 'meal_Undefined', 'market_segment_Aviation', 'market_segment_Complementary', 'market_segment_Corporate', 'market_segment_Direct', 'market_segment_Groups', 'market_segment_Offline TA/TO', 'market_segment_Online TA', 'distribution_channel_Corporate', 'distribution_channel_GDS', 'deposit_type_No Deposit', 'deposit_type_Refundable', 'customer_type_Contract', 'customer_type_Group', 'customer_type_Transient', 'reserved_vs_assigned', 'season', 'season_autumn', 'season_spring', 'season_summer', 'season_winter', 'origin_type'
+- Fitur tambahan yang sekiranya bisa ditambah untuk pemodelan di masa depan adalah weather, tags, rating, tipe kasur, price of 2 people
