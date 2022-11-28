@@ -4,9 +4,9 @@ We're from Bootcamp Data Science Batch 26 Rakamin Academy, and this is our final
 Hotel booking cancellation is the lucky dataset that caught our attention. 
 
 ## Where to look for detail
-You can find our dataset on [Kaggle] (https://www.kaggle.com/datasets/mojtaba142/hotel-booking)
+You can find our dataset on [Kaggle](https://www.kaggle.com/datasets/mojtaba142/hotel-booking)
 
-More detail about our dataset's variable description on [Google Docs] (https://bit.ly/hotel_booking_variable_desc)
+More detail about our dataset's variable description on [Google Docs](https://bit.ly/hotel_booking_variable_desc)
 
 # Business Understanding
 ## Problem
@@ -23,19 +23,19 @@ customers do not run to competitors
 
 # Exploratory Data Analysis
 - Market Segment & Cancellation
-(https://user-images.githubusercontent.com/116469338/204178531-b6eddcd9-e73f-4002-85ef-ff92feecc5b7.jpg)
+[graph](https://user-images.githubusercontent.com/116469338/204178531-b6eddcd9-e73f-4002-85ef-ff92feecc5b7.jpg)
 The customer likely makes a booking through an online travel agent. But, online travel agents (OTA) have the most booking cancellation
 
 - Arrival Month & Cancellation
-(https://user-images.githubusercontent.com/116469338/204179140-06422b09-8d5a-4bc2-a138-d6fb627d641e.png)
+[graph](https://user-images.githubusercontent.com/116469338/204179140-06422b09-8d5a-4bc2-a138-d6fb627d641e.png)
 August has the most booking occurs. Peak summer in Portugal happen in August
 
 - Lead Time & Cancellation
-(https://user-images.githubusercontent.com/116469338/204179449-1c4ac343-bcf0-4236-8e47-ea4ae655f4bf.png)
+[graph](https://user-images.githubusercontent.com/116469338/204179449-1c4ac343-bcf0-4236-8e47-ea4ae655f4bf.png)
 Customers who have longer lead times have a higher cancellation rate
 
 - Deposit Type & Cancellation
-(https://user-images.githubusercontent.com/116469338/204179611-0357613f-a341-42df-b350-186fb73fca89.png)
+[graph](https://user-images.githubusercontent.com/116469338/204179611-0357613f-a341-42df-b350-186fb73fca89.png)
 Hotel booking by type non-refund deposits have the most significant cancellation rate  reach 99%. One of the reason is that no
 refunds have the biggest median lead times
 
@@ -83,8 +83,8 @@ We used **recall**
     - df3 is the best-fit model
     - With **hyperparameter tuning** we manage to increase recall from 75% become 76%
 - SHAP Value & Summary Plot
-(https://user-images.githubusercontent.com/116469338/204266381-62792f0a-e3e1-4b62-bfa5-5d58c8056ccd.png)
-(https://user-images.githubusercontent.com/116469338/204266454-d1138938-f4ec-4102-85a6-dee4af205445.png)
+[SHAP Value](https://user-images.githubusercontent.com/116469338/204266381-62792f0a-e3e1-4b62-bfa5-5d58c8056ccd.png)
+[Summary Plot](https://user-images.githubusercontent.com/116469338/204266454-d1138938-f4ec-4102-85a6-dee4af205445.png)
 
 # Business Recommendation
 - Origin Type
@@ -99,21 +99,21 @@ Make new regulations; 60 days before arrival day is the maximum for no deposits 
 
 # Simulation
 - Flowchart Hotel PMS Before ML
-(https://user-images.githubusercontent.com/116469338/204268657-aa1a49ac-6dd5-4c55-9e99-5b14f6eb741f.png)
+[before](https://user-images.githubusercontent.com/116469338/204268657-aa1a49ac-6dd5-4c55-9e99-5b14f6eb741f.png)
 - Flowchart Hotel PMS After Integrate With ML
-(https://user-images.githubusercontent.com/116469338/204268674-b66e20c6-0b12-4614-844a-259e59b417d1.png)
+[after](https://user-images.githubusercontent.com/116469338/204268674-b66e20c6-0b12-4614-844a-259e59b417d1.png)
 - Simulation of Canceled Prediction 
 Assumption with 37% cancellation rate
-(https://user-images.githubusercontent.com/116469338/204269166-ffb5918e-cf69-4973-a86a-044f6afac78d.png)
+[canceled predict](https://user-images.githubusercontent.com/116469338/204269166-ffb5918e-cf69-4973-a86a-044f6afac78d.png)
 With our model, we can predict 2812 customer who "will cancel" their booking, and we can give offers for them to prevent their cancel
 - Business Simulation for Revenue
-(https://user-images.githubusercontent.com/116469338/204269914-4219afe4-c5f9-4f55-853b-ab07ebc1b220.png)
+[revenue](https://user-images.githubusercontent.com/116469338/204269914-4219afe4-c5f9-4f55-853b-ab07ebc1b220.png)
 We can increase hotel's revenue by 39.450.000 € 
 - Wireframe UI/UX (OTA)
     - Lead time
-    (https://user-images.githubusercontent.com/116469338/204270693-ad2fe554-65fd-4c9d-b0de-c69085123b2b.png)
+    [lead time](https://user-images.githubusercontent.com/116469338/204270693-ad2fe554-65fd-4c9d-b0de-c69085123b2b.png)
     - Special promo for local tourists
-    (https://user-images.githubusercontent.com/116469338/204276550-4cf913ed-0de3-4e2a-b200-96b662e7db18.png)
+    [promo for local tourists](https://user-images.githubusercontent.com/116469338/204276550-4cf913ed-0de3-4e2a-b200-96b662e7db18.png)
 - Business Recommendation (additional)
     - Adding features (travel purpose, age, price) to improve model performance.
     - Gave recommendations for pricing the best room on the lead time of 24-26 days before the peak event/festival in Portugal (from external sources are known to most traveler in Spain the neighboring of Portugal, book their hotel 25 days before arrival).
