@@ -104,16 +104,16 @@ Make new regulations; 60 days before arrival day is the maximum for no deposits 
 (https://user-images.githubusercontent.com/116469338/204268674-b66e20c6-0b12-4614-844a-259e59b417d1.png)
 - Simulation of Canceled Prediction 
 Assumption with 37% cancellation rate
-<img width="729" alt="Untitled" src="https://user-images.githubusercontent.com/116469338/204269166-ffb5918e-cf69-4973-a86a-044f6afac78d.png">
+(https://user-images.githubusercontent.com/116469338/204269166-ffb5918e-cf69-4973-a86a-044f6afac78d.png)
 With our model, we can predict 2812 customer who "will cancel" their booking, and we can give offers for them to prevent their cancel
 - Business Simulation for Revenue
-<img width="714" alt="Untitled1" src="https://user-images.githubusercontent.com/116469338/204269914-4219afe4-c5f9-4f55-853b-ab07ebc1b220.png">
+(https://user-images.githubusercontent.com/116469338/204269914-4219afe4-c5f9-4f55-853b-ab07ebc1b220.png)
 We can increase hotel's revenue by 39.450.000 € 
 - Wireframe UI/UX (OTA)
     - Lead time
     (https://user-images.githubusercontent.com/116469338/204270693-ad2fe554-65fd-4c9d-b0de-c69085123b2b.png)
     - Special promo for local tourists
-    ![BlueCode - PPT Final Project (1)1 png](https://user-images.githubusercontent.com/116469338/204276550-4cf913ed-0de3-4e2a-b200-96b662e7db18.png)
+    (https://user-images.githubusercontent.com/116469338/204276550-4cf913ed-0de3-4e2a-b200-96b662e7db18.png)
 - Business Recommendation (additional)
     - Adding features (travel purpose, age, price) to improve model performance.
     - Gave recommendations for pricing the best room on the lead time of 24-26 days before the peak event/festival in Portugal (from external sources are known to most traveler in Spain the neighboring of Portugal, book their hotel 25 days before arrival).
