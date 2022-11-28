@@ -122,19 +122,24 @@ We can increase hotel's revenue by 39.450.000 €
 # Reference
 Antonio, N., de Almeida, A., & Nunes, L. (2019). Hotel Booking Demand Datasets. Data in Brief, 22, 41–49.
 https://doi.org/10.1016/J.DIB.2018.11.126
+
 Antonio, N., Almeida, A. de, & Nunes, L. (2017). Predicting Hotel Booking Cancellations to Decrease
 Uncertainty and Increase Revenue. Tourism & Management Studies, 13(2), 25–39.
 https://doi.org/10.18089/tms.2017.13203
+
 Antonio, N., de Almeida, A., & Nunes, L. (2017). Predicting Hotel bookings Cancellation With a Machine
 Learning Classification Model. Proceedings - 16th IEEE International Conference on Machine Learning
 and Applications, ICMLA 2017, 2017-December, 1049–1054. https://doi.org/10.1109/ICMLA.2017.00-11
+
 Boost Hotel bookings by optimizing your Booking Lead Time, (March 10, 2020).
 https://blog.experience-hotel.com/boost-hotel-bookings-by-optimizing-your-booking-lead-time/
+
 How Online Hotel Distribution Changing Is In Europe, (October 4, 2019).
 https://www.d-edge.com/how-online-hotel-distribution-is-changing-in-europe/
+
 Sánchez-Medina, A. J., & C-Sánchez, E. (2020). Using Machine Learning and Big Data for Efficient Forecasting
 of Hotel Booking Cancellations. International Journal of Hospitality Management, 89, 102546.
 https://doi.org/10.1016/J.IJHM.2020.102546
+
 SiteMinder. (n.d.). How Far do Hotel Guests Book in Advance? Retrieved November 20, 2022, from
-https://www.siteminder.com/r/hotel-distribution/hotel-revenue-management/hotel-guests-book-advan
-ce/
+https://www.siteminder.com/r/hotel-distribution/hotel-revenue-management/hotel-guests-book-advance/
