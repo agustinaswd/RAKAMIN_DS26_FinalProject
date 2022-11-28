@@ -10,8 +10,8 @@ More detail about our dataset's variable description on [Google Docs] (https://b
 
 # Business Understanding
 ## Problem
-"Cancellations are a key aspect of hotel revenue management because of their impact on room reservation systems" (Sánchez-Medina dkk, 2020)
-"Rigid cancellation policies and  overbooking strategies can also have a negative influence on revenue and reputation" (Antonio dkk, 2017)
+"Cancellations are a key aspect of hotel revenue management because of their impact on room reservation systems" (Sánchez-Medina dkk, 2020).
+"Rigid cancellation policies and  overbooking strategies can also have a negative influence on revenue and reputation" (Antonio dkk, 2017).
 The number of cancellations of hotel orders becomes issue of concern to the management team
 because it is directly related to revenue. Proper cancellation of policies is required somewhat
 customers do not run to competitors
@@ -113,7 +113,7 @@ We can increase hotel's revenue by 39.450.000 €
     - Lead time
     (https://user-images.githubusercontent.com/116469338/204270693-ad2fe554-65fd-4c9d-b0de-c69085123b2b.png)
     - Special promo for local tourists
-    (https://user-images.githubusercontent.com/116469338/204270946-cc59279e-3d99-4027-a1a0-fdf3f9af985b.png)
+    ![image](https://user-images.githubusercontent.com/116469338/204274625-193bb30c-4a4d-4588-9e7f-f991c44434e1.png)
 - Business Recommendation (additional)
     - Adding features (travel purpose, age, price) to improve model performance.
     - Gave recommendations for pricing the best room on the lead time of 24-26 days before the peak event/festival in Portugal (from external sources are known to most traveler in Spain the neighboring of Portugal, book their hotel 25 days before arrival).
