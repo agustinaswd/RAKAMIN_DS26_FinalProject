@@ -23,12 +23,16 @@ customers do not run to competitors
 
 # Exploratory Data Analysis
 - [Market Segment & Cancellation](https://user-images.githubusercontent.com/116469338/204178531-b6eddcd9-e73f-4002-85ef-ff92feecc5b7.jpg)
+
 The customer likely makes a booking through an online travel agent. But, online travel agents (OTA) have the most booking cancellation
 - [Arrival Month & Cancellation](https://user-images.githubusercontent.com/116469338/204179140-06422b09-8d5a-4bc2-a138-d6fb627d641e.png)
+
 August has the most booking occurs. Peak summer in Portugal happen in August
 - [Lead Time & Cancellation](https://user-images.githubusercontent.com/116469338/204179449-1c4ac343-bcf0-4236-8e47-ea4ae655f4bf.png)
+
 Customers who have longer lead times have a higher cancellation rate
 - [Deposit Type & Cancellation](https://user-images.githubusercontent.com/116469338/204179611-0357613f-a341-42df-b350-186fb73fca89.png)
+
 Hotel booking by type non-refund deposits have the most significant cancellation rate  reach 99%. One of the reason is that no refunds have the biggest median lead times
 
 # Data Preprocessing
@@ -93,6 +97,7 @@ Make new regulations; 60 days before arrival day is the maximum for no deposits 
 - [Flowchart Hotel PMS After Integrate With ML](https://user-images.githubusercontent.com/116469338/204268674-b66e20c6-0b12-4614-844a-259e59b417d1.png)
 - Simulation of Canceled Prediction 
 [Assumption with 37% cancellation rate](https://user-images.githubusercontent.com/116469338/204269166-ffb5918e-cf69-4973-a86a-044f6afac78d.png)
+
 With our model, we can predict 2812 customer who "will cancel" their booking, and we can give offers for them to prevent their cancel
 - [Business Simulation for Revenue](https://user-images.githubusercontent.com/116469338/204269914-4219afe4-c5f9-4f55-853b-ab07ebc1b220.png)
 
