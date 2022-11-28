@@ -22,18 +22,10 @@ customers do not run to competitors
 - Business Metric : cancellation rate
 
 # Exploratory Data Analysis
-- [Market Segment & Cancellation](https://user-images.githubusercontent.com/116469338/204178531-b6eddcd9-e73f-4002-85ef-ff92feecc5b7.jpg)
-
-The customer likely makes a booking through an online travel agent. But, online travel agents (OTA) have the most booking cancellation
-- [Arrival Month & Cancellation](https://user-images.githubusercontent.com/116469338/204179140-06422b09-8d5a-4bc2-a138-d6fb627d641e.png)
-
-August has the most booking occurs. Peak summer in Portugal happen in August
-- [Lead Time & Cancellation](https://user-images.githubusercontent.com/116469338/204179449-1c4ac343-bcf0-4236-8e47-ea4ae655f4bf.png)
-
-Customers who have longer lead times have a higher cancellation rate
-- [Deposit Type & Cancellation](https://user-images.githubusercontent.com/116469338/204179611-0357613f-a341-42df-b350-186fb73fca89.png)
-
-Hotel booking by type non-refund deposits have the most significant cancellation rate  reach 99%. One of the reason is that no refunds have the biggest median lead times
+- [Market Segment & Cancellation](https://user-images.githubusercontent.com/116469338/204178531-b6eddcd9-e73f-4002-85ef-ff92feecc5b7.jpg)<br /> The customer likely makes a booking through an online travel agent. But, online travel agents (OTA) have the most booking cancellation
+- [Arrival Month & Cancellation](https://user-images.githubusercontent.com/116469338/204179140-06422b09-8d5a-4bc2-a138-d6fb627d641e.png)<br /> August has the most booking occurs. Peak summer in Portugal happen in August
+- [Lead Time & Cancellation](https://user-images.githubusercontent.com/116469338/204179449-1c4ac343-bcf0-4236-8e47-ea4ae655f4bf.png)<br /> Customers who have longer lead times have a higher cancellation rate
+- [Deposit Type & Cancellation](https://user-images.githubusercontent.com/116469338/204179611-0357613f-a341-42df-b350-186fb73fca89.png)<br /> Hotel booking by type non-refund deposits have the most significant cancellation rate  reach 99%. One of the reason is that no refunds have the biggest median lead times
 
 # Data Preprocessing
 - Data Cleansing
