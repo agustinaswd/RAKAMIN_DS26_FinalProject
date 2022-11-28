@@ -113,7 +113,7 @@ We can increase hotel's revenue by 39.450.000 €
     - Lead time
     (https://user-images.githubusercontent.com/116469338/204270693-ad2fe554-65fd-4c9d-b0de-c69085123b2b.png)
     - Special promo for local tourists
-    ![image](https://user-images.githubusercontent.com/116469338/204274625-193bb30c-4a4d-4588-9e7f-f991c44434e1.png)
+    ![BlueCode - PPT Final Project (1)1 png](https://user-images.githubusercontent.com/116469338/204276550-4cf913ed-0de3-4e2a-b200-96b662e7db18.png)
 - Business Recommendation (additional)
     - Adding features (travel purpose, age, price) to improve model performance.
     - Gave recommendations for pricing the best room on the lead time of 24-26 days before the peak event/festival in Portugal (from external sources are known to most traveler in Spain the neighboring of Portugal, book their hotel 25 days before arrival).
