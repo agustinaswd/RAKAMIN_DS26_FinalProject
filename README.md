@@ -77,11 +77,11 @@ We used **recall**
 - Origin Type
     - Make special promos for local tourists like time-limited offer only can be claimed in time certain
     - Special promo for local tourists also done with hotel campaigns use google ads with location targeting Portuguese geography
-- Market Segment
+- Market Segment<br /> 
 Cooperate with various online travel platforms agents, like doing promotions specifically for customers who book hotels through an online travel agent 
-- Lead Time
+- Lead Time<br /> 
 Make a new strategy 60 days before the day of arrival to get various special promos. It will also make it easier for the hotel to apply room pricing dynamically depending on the event that will occur on the date booked by the consumer
-- Deposit Type
+- Deposit Type<br /> 
 Make new regulations; 60 days before arrival day is the maximum for no deposits type. The non-refund type will be applied to the customer who makes a booking with more than 60 days
 
 # Simulation
