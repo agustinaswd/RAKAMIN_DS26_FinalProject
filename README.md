@@ -14,7 +14,7 @@ More detail about our dataset's variable description on [Google Docs](https://bi
 "Rigid cancellation policies and  overbooking strategies can also have a negative influence on revenue and reputation" (Antonio dkk, 2017).
 The number of cancellations of hotel orders becomes issue of concern to the management team
 because it is directly related to revenue. Proper cancellation of policies is required somewhat
-customers do not run to competitors
+customers do not run to competitors. **Cancellation Rate Prediction is the best solution to decrease cancellation with the right business strategy**
 
 ## Goal, Obj, Business Metric
 - Goal : Decrease hotel cancellation rate
